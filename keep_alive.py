@@ -3,7 +3,7 @@ import threading, requests, time
 def ping_self():
     while True:
         try:
-            requests.get("https://your-render-url.onrender.com/region?uid=12345678")
+            requests.get("https://uset-get.onrender.com/region?uid=12345678")
         except:
             pass
         time.sleep(300)  # 5 phút ping 1 lần
